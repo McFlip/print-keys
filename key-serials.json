@@ -1,0 +1,35 @@
+{
+  "FileName": "certificate.pfx",
+  "FilePath": "C:\\Users\\utnapishtim\\Documents\\scripts\\print-keys\\certificate.pfx",
+  "Subject": "CN=test@example.com",
+  "Issuer": "CN=test@example.com",
+  "Thumbprint": "9E8D1A68D0F96B82707B441E027976096871F9FE",
+  "SerialNumber": "6BB0ACAC57733CBD4BECA421A9DA0BE4",
+  "NotBefore": "2026-10-21T17:25:23-04:00",
+  "NotAfter": "2027-10-21T17:35:22-04:00",
+  "HasPrivateKey": true,
+  "SignatureAlgorithm": "sha256RSA",
+  "PublicKeyAlgorithm": "RSA",
+  "Extensions": [
+    {
+      "OidFriendlyName": "Key Usage",
+      "OidValue": "2.5.29.15",
+      "Value": "Key Encipherment, Data Encipherment (30)"
+    },
+    {
+      "OidFriendlyName": "Enhanced Key Usage",
+      "OidValue": "2.5.29.37",
+      "Value": "Secure Email (1.3.6.1.5.5.7.3.4)"
+    },
+    {
+      "OidFriendlyName": "Subject Alternative Name",
+      "OidValue": "2.5.29.17",
+      "Value": "RFC822 Name=test@example.com"
+    },
+    {
+      "OidFriendlyName": "Subject Key Identifier",
+      "OidValue": "2.5.29.14",
+      "Value": "f1366691e4645fe944b1b36bb1a95df7a91e29af"
+    }
+  ]
+}
